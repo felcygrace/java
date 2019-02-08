@@ -6,8 +6,11 @@ class OddEven{
 		if(a%2==0){
 			System.out.println("is even");
 		}
-	    else{
+	        else if(a%2!=0){
 			System.out.println("is odd");
+		}
+		else{
+			system.out.println("invalid");
 		}
 	}
 }
