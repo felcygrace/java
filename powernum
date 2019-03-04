@@ -1,0 +1,16 @@
+import java.util.Scanner;
+class Poweranum{
+public static void main(String[] qwe){
+Scanner scan=new Scanner(System.in);
+System.out.print("enter the valuefor N");
+int n=scan.nextInt();
+int k=scan.nextInt();
+int res=1;
+int i=1;
+while(i<=k){
+res=res*n;
+i++;
+}
+System.out.println(res+"n^k");
+}
+}
