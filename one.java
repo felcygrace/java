@@ -4,13 +4,13 @@ class OddEven{
 		Scanner Scan=new Scanner(System.in);
 		int a= Scan.nextInt();
 		if(a%2==0){
-			System.out.println("even");
+			System.out.println("Even");
 		}
 	        else if(a%2!=0 & a>0){
-			System.out.println("odd");
+			System.out.println("Odd");
 		}
 		else{
-			System.out.println("invalid");
+			System.out.println("Invalid");
 		}
 	}
 }
