@@ -1,0 +1,17 @@
+public class lowerTriangleMatrix{
+    public static void main(String[] args){
+        int row,col,i,j;
+        int a[][]={{1,2,3},{2,3,4},{3,4,5}};
+        row=a.length;
+        col=a[0].length;
+        for(i=0;i<row;i++){
+            for(j=0;j<col;j++){
+                if(j>i)
+                System.out.println("0");
+                else
+                System.out.println(a[i][j] +" ");
+            }
+        System.out.println();
+        }
+    }
+}
