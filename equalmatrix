@@ -1,0 +1,31 @@
+public class equalmatrix{
+
+     public static void main(String []args){
+        int row1,col1,row2,col2,i,j;
+        boolean flag=true;
+        int a[][]={{1,2,3},{3,3,4},{3,4,5}};
+        int b[][]={{1,2,3},{2,3,4},{3,4,5}};
+        row1=a.length;
+        row2=b.length;
+        col1=a[0].length;
+        col2=b[0].length;
+        if(row1!=row2 ||col1!=col2){
+            System.out.println("NO");
+        }
+        else{
+            for(i=0;i<row1;i++){
+                for(j=0;j<col1;j++){
+                    if(a[i][j]!=b[i][j]){
+                        flag=false;
+                        break;
+                    }
+                }
+            }
+        }
+        if(flag){
+            System.out.println("yes");
+        }
+        else
+        System.out.println("no");
+     }
+}
